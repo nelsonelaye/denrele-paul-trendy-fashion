@@ -1,0 +1,42 @@
+$montana: #4ea5c0; // hero gradient color
+$header-montana: rgba(61, 112, 117, 0.85);
+$hgreen: #133639;
+$text-green: #265156;
+$footer-green: #192023;
+$dark-blue: #171c54; // blue color for review section
+$blue-light: #868aa7; // for review section sub-head
+$rv: rgba(23, 28, 84, 0.5);
+$white: #fff;
+$flash: #cac6c3;
+$twitter-blue: #00a8f0;
+$fb-blue: #2f80ed;
+$ig-blue: #c13584;
+$gradient: linear-gradient(
+  180deg,
+  rgba(61, 112, 117, 0.85) 33.16%,
+  rgba(7, 68, 73, 0) 100%
+);
+
+@font-face {
+  font-family: "wisteria-serif";
+  src: url("../assets/fonts/wisteria/Wisteria.ttf");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.side-header {
+  font-size: 180px;
+}
+.middle-header {
+  font-size: 100px;
+}
