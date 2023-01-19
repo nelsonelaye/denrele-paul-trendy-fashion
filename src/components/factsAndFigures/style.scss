@@ -1,0 +1,8 @@
+@import "../../styles/base.scss";
+
+.card-list {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}

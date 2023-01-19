@@ -1,0 +1,39 @@
+@import "../../styles/base.scss";
+
+.gallery {
+  background-color: $section-bg;
+  padding: $section-padding;
+}
+
+.top {
+  margin-bottom: 50px;
+}
+
+.slide {
+  display: flex;
+  margin: 20px 0;
+  overflow: scroll;
+}
+
+.gallery-image {
+  width: 163px;
+  height: 141px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    padding: 100px 0;
+  }
+  .top {
+    padding: 0 80px;
+    margin-bottom: 80px;
+  }
+
+  .gallery-image {
+    width: 500px;
+    height: 450px;
+  }
+}

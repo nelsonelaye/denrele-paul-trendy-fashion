@@ -18,7 +18,7 @@ const index = () => {
         </a>
       </nav>
 
-      <div>
+      <div className="harmburger-menu">
         <div className="line"></div>
         <div className="line"></div>
       </div>

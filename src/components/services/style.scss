@@ -1,0 +1,19 @@
+@import "../../styles/base.scss";
+
+.service-section {
+  padding: $section-padding;
+}
+
+.service-list {
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .service-section {
+    padding: 100px 80px;
+  }
+  .service-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
