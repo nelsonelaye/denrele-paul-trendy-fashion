@@ -1,0 +1,31 @@
+@import "../../styles/base.scss";
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: $hgreen;
+  flex-direction: column;
+  color: $white;
+  padding: $section-padding;
+
+  p {
+    color: inherit;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  margin: 30px 0 0;
+  // width: 100%;
+  // justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    padding: 80px 0;
+
+    p {
+      font-size: 18px;
+    }
+  }
+}

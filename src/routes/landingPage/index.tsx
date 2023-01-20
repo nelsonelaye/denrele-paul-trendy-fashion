@@ -7,6 +7,8 @@ import Facts from "../../components/factsAndFigures";
 import Products from "../../components/productSection";
 import Services from "../../components/services";
 import Gallery from "../../components/gallery";
+import Team from "../../components/teamSection";
+import Review from "../../components/reviewSection";
 
 const index = () => {
   return (
@@ -17,6 +19,8 @@ const index = () => {
       <Products />
       <Services />
       <Gallery />
+      <Team />
+      <Review />
     </>
   );
 };

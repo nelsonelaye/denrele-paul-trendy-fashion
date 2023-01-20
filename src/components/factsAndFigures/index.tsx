@@ -20,7 +20,13 @@ const index = () => {
             // <li key={item.id} className="card">
             //   {item.title}
             // </li>
-            <Card id={id} figure={figure} title={title} color={color} />
+            <Card
+              id={id}
+              figure={figure}
+              title={title}
+              color={color}
+              key={id}
+            />
           );
         })}
       </div>

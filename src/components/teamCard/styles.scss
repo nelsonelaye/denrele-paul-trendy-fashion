@@ -1,0 +1,74 @@
+@import "../../styles/base.scss";
+
+.team-card {
+  color: inherit;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.team-name {
+  font-size: 24px;
+  margin: 10px 0;
+  color: inherit;
+}
+
+.team-role {
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  color: inherit;
+}
+
+.team-bio {
+  font-size: 18px;
+  margin: 10px 0 0;
+  color: inherit;
+}
+
+.socials {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .socials {
+    display: flex;
+    margin: 30px 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1316px) {
+  .team-card {
+    width: 350px;
+    margin-bottom: 50px;
+  }
+
+  .team-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .team-name {
+    margin: 10px 0 5px;
+  }
+  .team-bio {
+    line-height: 30px;
+  }
+  .socials {
+  }
+}

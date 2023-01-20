@@ -1,0 +1,34 @@
+@import "../../styles/base.scss";
+
+.team-section {
+  background-color: $section-bg;
+  padding: $section-padding;
+  color: $dark-blue;
+}
+
+.team-intro {
+  font-size: 24px;
+  text-align: center;
+  line-height: 39px;
+  opacity: 0.8;
+  margin: 30px 20px 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-intro {
+    max-width: 477px;
+    margin: 50px auto;
+    color: $text-green;
+    // font-size: 24px;
+  }
+  .team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .team-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

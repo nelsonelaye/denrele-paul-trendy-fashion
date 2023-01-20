@@ -11,8 +11,9 @@
 
 .slide {
   display: flex;
-  margin: 20px 0;
-  overflow: scroll;
+  // flex-direction: row;
+  // margin: 20px 0;
+  overflow: hidden;
 }
 
 .gallery-image {
