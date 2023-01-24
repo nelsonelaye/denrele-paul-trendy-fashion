@@ -75,14 +75,15 @@ const index = () => {
         <Carousel
           additionalTransfrom={0}
           arrows={false}
-          autoPlaySpeed={3000}
+          autoPlay
+          autoPlaySpeed={2000}
           centerMode={false}
           className=""
           containerClass="container"
           dotListClass=""
           draggable
           focusOnSelect={false}
-          infinite={false}
+          infinite={true}
           itemClass=""
           keyBoardControl
           minimumTouchDrag={80}
@@ -135,6 +136,7 @@ const index = () => {
         <Carousel
           additionalTransfrom={0}
           arrows={false}
+          autoPlay
           autoPlaySpeed={3000}
           centerMode={false}
           className=""
@@ -142,7 +144,7 @@ const index = () => {
           dotListClass=""
           draggable
           focusOnSelect={false}
-          infinite={false}
+          infinite={true}
           itemClass=""
           keyBoardControl
           minimumTouchDrag={80}
