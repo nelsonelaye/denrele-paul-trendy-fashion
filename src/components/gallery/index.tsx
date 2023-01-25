@@ -119,7 +119,7 @@ const index = () => {
           }}
           rewind={false}
           rewindWithAnimation={false}
-          rtl={true}
+          rtl={false}
           shouldResetAutoplay
           showDots={false}
           sliderClass=""
@@ -180,7 +180,7 @@ const index = () => {
           }}
           rewind={false}
           rewindWithAnimation={false}
-          rtl={false}
+          rtl={true}
           shouldResetAutoplay
           showDots={false}
           sliderClass=""
